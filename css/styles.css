@@ -1,0 +1,12 @@
+.wslogo:hover, .A1:hover, .A2:hover, .A3:hover, .mail:hover, .tel:hover, .tus:hover{
+    color: #404bbf;
+}
+
+.A1:focus{
+    color:#404bbf;
+    text-decoration: underline;
+}
+
+body{
+    font-family: "Roboto", "Raleway", sans-serif;
+}
