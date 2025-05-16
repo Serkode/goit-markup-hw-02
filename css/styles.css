@@ -1,4 +1,4 @@
-.wslogo:hover, .A1:hover, .A2:hover, .A3:hover, .mail:hover, .tel:hover, .tus:hover{
+.wslogo:hover, .A1:hover, .A2:hover, .A3:hover, .mail:hover, .tel:hover{
     color: #404bbf;
 }
 
@@ -8,5 +8,33 @@
 }
 
 body{
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+
+.wslogo{
+    color: #4D5AE5;
+    font-family: "Raleway", sans-serif;
+}
+
+.wslogo span{
+    color: #2E2F42;
+}
+
+h2, h3{
+    color: #2E2F42;
+}
+
+.tus{
+    background-color: #4D5AE5;
+}
+
+.tus:hover{
+    background-color: #404bbf;
+}
+
+.tus span{
+    color: white;
 }
