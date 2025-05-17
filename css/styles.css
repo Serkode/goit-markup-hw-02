@@ -1,40 +1,77 @@
-.wslogo:hover, .A1:hover, .A2:hover, .A3:hover, .mail:hover, .tel:hover{
-    color: #404bbf;
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
 }
 
-.A1:focus{
-    color:#404bbf;
-    text-decoration: underline;
+.wslogo:hover,
+.A1:hover,
+.A2:hover,
+.A3:hover,
+.mail:hover,
+.tel:hover {
+  color: #404bbf;
 }
 
-body{
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #434455;
+.A1:focus {
+  color: #404bbf;
+  text-decoration: underline;
 }
 
-.wslogo{
-    color: #4D5AE5;
-    font-family: "Raleway", sans-serif;
+.wslogo {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 1.2;
 }
 
-.wslogo span{
-    color: #2E2F42;
+.wslogo span {
+  color: #2e2f42;
 }
 
-h2, h3{
-    color: #2E2F42;
+h1 {
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 1.1;
+  color: #fff;
+  background: #2e2f42;
 }
 
-.tus{
-    background-color: #4D5AE5;
+h2 {
+  font-weight: bold;
+  color: #2e2f42;
+  font-size: 36px;
 }
 
-.tus:hover{
-    background-color: #404bbf;
+h3 {
+  font-weight: Medium;
+  color: #2e2f42;
 }
 
-.tus span{
-    color: white;
+.tus {
+  background-color: #4d5ae5;
+  color: #fff;
+  cursor: pointer;
+}
+
+.tus:hover {
+  background-color: #404bbf;
+}
+
+.our-team {
+  background: #f4f4fd;
+}
+
+footer {
+  background: #2e2f42;
+  color: #f4f4fd;
+}
+
+.footer-logo {
+  color: #4d5ae5;
+}
+
+.footer-logo span {
+  color: #f4f4fd;
 }
