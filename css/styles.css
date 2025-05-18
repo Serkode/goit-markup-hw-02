@@ -22,7 +22,7 @@ body {
   color: #404bbf;
 }
 
-.A1:focus {
+.A1:active {
   color: #404bbf;
   text-decoration: underline;
 }
