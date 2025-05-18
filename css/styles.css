@@ -5,6 +5,14 @@ body {
   color: #434455;
 }
 
+.A1,
+.A2,
+.A3,
+.mail,
+.tel {
+  color: #2e2f42;
+  text-decoration: none;
+}
 .wslogo:hover,
 .A1:hover,
 .A2:hover,
@@ -24,10 +32,27 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   line-height: 1.2;
+  text-decoration: none;
 }
 
 .wslogo span {
   color: #2e2f42;
+}
+
+.ilk-alan {
+  background: #2e2f42;
+}
+
+.tus {
+  background-color: #4d5ae5;
+  color: #fff;
+  cursor: pointer;
+  width: 169px;
+  height: 56px;
+}
+
+.tus:hover {
+  background-color: #404bbf;
 }
 
 h1 {
@@ -35,7 +60,6 @@ h1 {
   font-size: 56px;
   line-height: 1.1;
   color: #fff;
-  background: #2e2f42;
 }
 
 h2 {
@@ -49,16 +73,6 @@ h3 {
   color: #2e2f42;
 }
 
-.tus {
-  background-color: #4d5ae5;
-  color: #fff;
-  cursor: pointer;
-}
-
-.tus:hover {
-  background-color: #404bbf;
-}
-
 .our-team {
   background: #f4f4fd;
 }
@@ -70,8 +84,16 @@ footer {
 
 .footer-logo {
   color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 1.2;
+  text-decoration: none;
 }
 
 .footer-logo span {
   color: #f4f4fd;
+}
+
+.footer-logo:hover {
+  color: #404bbf;
 }
